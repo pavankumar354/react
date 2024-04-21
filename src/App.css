@@ -214,13 +214,13 @@ body {
 }
 .feature-image {
   width: 30%;
-  height: 200px; 
+  height: 250px; 
   border-radius: 8px; 
   
 }
 
 .feature-text {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); 
+  
   border: 2px solid #9747FF ;
   padding: 15px;
   border-radius: 8px;
