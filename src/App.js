@@ -277,8 +277,13 @@ function App() {
     <div className="App">
       <div className='carou'>
       <MyCarousel /></div>
-      <p className='description'>A Tool for <span className='description1'>Automatic Identification of Products and Defects using Computer Vision </span> to enhance process efficiency and productivity.</p>
+      <div className='head'>
+      <div className='details'>
+        
+        <p className='description'>A Tool for <span className='description1'>Automatic Identification of Products and Defects using Computer Vision </span> to enhance process efficiency and productivity.</p>
+      </div>
       
+      <div className="video-container">
       <div className="video-container">
         <video
           id="main-video"
@@ -296,6 +301,8 @@ function App() {
             <MdPlayArrow onClick={handlePauseResume} className='control-icon1' />
           )}
         </div>
+      </div>
+      </div>
       </div>
       <div className='advantages-container'>
         <h2>What Nvision AI offers?</h2>
