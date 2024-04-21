@@ -95,10 +95,10 @@ const MyCarousel = () => {
 
   const slides = [
     { imageUrl: back, caption: 'Introducing Nvision AI' },
-    { imageUrl: back1, caption: '' },
-    { imageUrl: back2, caption: '' },
-    { imageUrl: back3, caption: '' },
-    { imageUrl: back4, caption: '' }
+    { imageUrl: back1, caption: 'Introducing Nvision AI' },
+    { imageUrl: back2, caption: 'Introducing Nvision AI' },
+    { imageUrl: back3, caption: 'Introducing Nvision AI' },
+    { imageUrl: back4, caption: 'Introducing Nvision AI' }
   ];
 
   return (
