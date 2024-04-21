@@ -216,8 +216,9 @@ body {
 }
 .feature-image {
   width: 30%;
-  height: 200px; 
+  height: 250px; 
   border-radius: 8px; 
+  object-fit: cover;
 }
 
 .feature-text {
